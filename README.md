@@ -3,8 +3,7 @@
 TelecomX is a telecommunication company that is aiming to increase its market share in the telecommunication industry, and with the mobile market saturated and dominated by a few players 
 there is intense competition among service providers.
 The company wants to understand the customer behavior and churn situation so they can offer competitive services to new customer and also retain existing customers. 
-Since it costs up to 5 times as much for a service provider to acquire a new subscriber as to retain an existing one, it wants to build a system that identifies the ideal churner so it 
-provide better services to the potential churners. This project analyses and identify factors contributing to customer churn and also a machine learning model that predicts customer churn.
+Since it costs up to 5 times as much for a service provider to acquire a new subscriber as to retain an existing one, it wants to build a system that identifies the ideal churner and provide better services to potential churners. This project analyses and identify factors contributing to customer churn and also a machine learning model that predicts customer churn.
 
 
 *EXECUTIVE SUMMARY*
@@ -25,3 +24,8 @@ Churn rate is highest in the first month of subscription and gradually reduces w
 5. While gender did not significantly affect churn, customers with no partners, senior citizens or no dependents were more likely to churn possibly due to different consumption pattern and financial constraints.
 
 6. Customers who use electronic check payment method have the highest churn rate at 45% compared to those whose use mailed checks, automatic bank transfers and credit cards.
+
+*MACHINE LEARNING MODEL BUILDING*
+
+Built a machine learning solution from scikit-learn using a Random Forest Classifier to predict customer churn,
+achieving a precision of 93%.
