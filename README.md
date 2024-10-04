@@ -1,14 +1,15 @@
 *PROJECT BACKGROUND*
 
-TelecomX is a telecommunication company that is aiming to increase its market share in the telecommunication industry, and with the mobile market saturated and dominated by a few players 
-there is intense competition among service providers.
-The company wants to understand the customer behavior and churn situation so they can offer competitive services to new customer and also retain existing customers. 
-Since it costs up to 5 times as much for a service provider to acquire a new subscriber as to retain an existing one, it wants to build a system that identifies the ideal churner and provide better services to potential churners. This project analyses and identify factors contributing to customer churn and also a machine learning model that predicts customer churn.
+TelecomX is a telecommunication company that is aiming to increase its market share in the telecommunication industry, and with saturated mobile market and a few dominate players there is intense competition among service providers.
+TelecomX wants to understand the customer behavior and churn situation so they can offer competitive services to new customer and also retain existing customers. 
+Since it costs up to 5 times as much for a service provider to acquire a new subscriber as to retain an existing one, it wants to build a system that identifies the ideal churner and provide better services to potential churners. This project analyses and identifies factors contributing to customer churn and also a machine learning model that predicts customer churn.
 
 
 *EXECUTIVE SUMMARY*
 
-With a churn rate of 26.5% over six years, and highest at 61% in the first month of subsciption, churn rate gradually reduces with increasing monthly charges, longer tenure and contracts, getting to 47% for customers subscribed in their fisrt year. The Company generated $16.1 million in revenue from 7043 subscribers and lost $500K from churned customers in their first year.
+With a churn rate of 26.5% over six years, and highest at 61% in the first month of subsciption, churn rate gradually reduces with increasing monthly charges, longer tenure and contracts, reaching 47% for customers subscribed in their first year. The Company has generated $16.1 million in revenue from 7043 subscribers over 6 years and lost $500K from churned customers in their first year.
+
+The entire interactive PowerBI dashboard can be downloaded [here](https://github.com/EmmaDokyi/Customer-churn-analysis/raw/refs/heads/main/Dashboard-Customer-churn-analysis.pbix)
 
 ![Alt text](https://github.com/EmmaDokyi/images/blob/main/Customer%20Churn%20Summary.png?raw=true)
 
