@@ -8,8 +8,9 @@ Since it costs up to 5 times as much for a service provider to acquire a new sub
 
 *EXECUTIVE SUMMARY*
 
-With a churn rate of 26.5% over six years With 47% customers churning in their first year, the Company had about $500k lost in revenue in one year. 
-Churn rate is highest in the first month of subscription and gradually reduces with increasing monthly charges, longer tenure and contracts.
+With a churn rate of 26.5% over six years, and highest at 61% in the first month of subsciption, churn rate gradually reduces with increasing monthly charges, longer tenure and contracts, getting to 47% for customers subscribed in their fisrt year. The Company generated $16.1 million in revenue from 7043 subscribers and lost $500K from churned customers in their first year.
+
+![Alt text](https://github.com/EmmaDokyi/images/blob/main/Customer%20Churn%20Summary.png?raw=true)
 
 
 *KEY INSIGHTS*
