@@ -13,7 +13,7 @@ Churn rate is highest in the first month of subscription and gradually reduces w
 
 
 *KEY INSIGHTS*
-1. Churn rate is highest in the first year of subscription at 47% with reducing churn rate in longer-tenured customers, going as low as 6.6% amongst customers in their 6th year ofsubscription.
+1. Churn rate is highest in the first year of subscription at 47% with reducing churn rate in longer-tenured customers, getting as low as 6.6% amongst customers in their 6th year of subscription.
 
 2. Customers with higher monthly charges tend to churn more often. This suggests that pricing or perceived value might be a challenge for high-paying customers, possibly due to service dissatisfaction or competition.
 
@@ -25,7 +25,6 @@ Churn rate is highest in the first month of subscription and gradually reduces w
 
 6. Customers who use electronic check payment method have the highest churn rate at 45% compared to those whose use mailed checks, automatic bank transfers and credit cards.
 
-*MACHINE LEARNING MODEL BUILDING*
+*MODEL BUILDING*
 
-Built a machine learning solution from scikit-learn using a Random Forest Classifier to predict customer churn,
-achieving a precision of 93%.
+Built two machine learning models from scikit-learn using Decision Tree and Random Forest Classifiers. The Decision Tree Classifier model had a score of 92% with 94% and 92% precision in predicting non-churners and churners respectively. The Random Forest Classifier had a score of 93% with 96% and 92% precision in predicting non-churners and churners respetively. The model built with the Random Forest Classifier was selected for its higher accuracy and precision in predicting non-churners.
