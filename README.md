@@ -3,13 +3,15 @@
 **Project Date:** April 2024  
 **Tools Used:** Power BI, Python (Pandas, Scikit-learn), Excel
 
+---
 
 ## 🗂️ PROJECT BACKGROUND
 
 TelecomX is a growing telecom provider aiming to boost its market share in a highly competitive and saturated industry. Since acquiring new customers is up to five times more expensive than retaining existing ones, the company sought to analyze churn behavior, identify high-risk customer segments, and develop a churn prediction system to support proactive retention strategies.
 
+---
 
-## 📌 EXECUTIVE SUMMARY
+## 📝 EXECUTIVE SUMMARY
 
 With a churn rate of **26.5%** over six years—peaking at **61% in the first month**—the analysis revealed that churn decreases with customer tenure, contract length, and bundled service usage. The company generated **$16.1 million** in revenue from **7,043 subscribers** over six years but lost an estimated **$500K** from first-year churn alone. A machine learning model was developed to predict potential churners with over **93% accuracy**.
 
@@ -17,6 +19,7 @@ The entire interactive PowerBI dashboard can be downloaded [here](https://github
 
 ![Alt text](https://github.com/EmmaDokyi/images/blob/main/Customer%20Churn%20Summary.png?raw=true)
 
+---
 
 ## 📊 KEY INSIGHTS
 
