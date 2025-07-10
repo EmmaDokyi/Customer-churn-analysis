@@ -1,32 +1,60 @@
-*PROJECT BACKGROUND*
+# 📞 TelecomX Customer Churn Analysis & Prediction
 
-TelecomX is a telecommunication company that is aiming to increase its market share in the telecommunication industry, and with saturated mobile market and a few dominate players there is intense competition among service providers.
-TelecomX wants to understand the customer behavior and churn situation so they can offer competitive services to new customer and also retain existing customers. 
-Since it costs up to 5 times as much for a service provider to acquire a new subscriber as to retain an existing one, it wants to build a system that identifies the ideal churner and provide better services to potential churners. This project analyses and identifies factors contributing to customer churn and also a machine learning model that predicts customer churn.
+**Project Date:** April 2024  
+**Tools Used:** Power BI, Python (Pandas, Scikit-learn), Excel
 
 
-*EXECUTIVE SUMMARY*
+## 🗂️ PROJECT BACKGROUND
 
-With a churn rate of 26.5% over six years, and highest at 61% in the first month of subsciption, churn rate gradually reduces with increasing monthly charges, longer tenure and contracts, reaching 47% for customers subscribed in their first year. The Company has generated $16.1 million in revenue from 7043 subscribers over 6 years and lost $500K from churned customers in their first year.
+TelecomX is a growing telecom provider aiming to boost its market share in a highly competitive and saturated industry. Since acquiring new customers is up to five times more expensive than retaining existing ones, the company sought to analyze churn behavior, identify high-risk customer segments, and develop a churn prediction system to support proactive retention strategies.
+
+
+## 📌 EXECUTIVE SUMMARY
+
+With a churn rate of **26.5%** over six years—peaking at **61% in the first month**—the analysis revealed that churn decreases with customer tenure, contract length, and bundled service usage. The company generated **$16.1 million** in revenue from **7,043 subscribers** over six years but lost an estimated **$500K** from first-year churn alone. A machine learning model was developed to predict potential churners with over **93% accuracy**.
 
 The entire interactive PowerBI dashboard can be downloaded [here](https://github.com/EmmaDokyi/Customer-churn-analysis/raw/refs/heads/main/Dashboard-Customer-churn-analysis.pbix)
 
 ![Alt text](https://github.com/EmmaDokyi/images/blob/main/Customer%20Churn%20Summary.png?raw=true)
 
 
-*KEY INSIGHTS*
-1. Churn rate is highest in the first year of subscription at 47% with reducing churn rate in longer-tenured customers, getting as low as 6.6% amongst customers in their 6th year of subscription.
+## 📊 KEY INSIGHTS
 
-2. Customers with higher monthly charges tend to churn more often. This suggests that pricing or perceived value might be a challenge for high-paying customers, possibly due to service dissatisfaction or competition.
+- 📉 **Churn declines with tenure**: 47% churn in the first year drops to 6.6% by the sixth year.
+- 💰 **High-paying customers churn more**: Customers with higher monthly charges are more likely to leave, possibly due to dissatisfaction or better offers elsewhere.
+- 📄 **Contract length matters**: Month-to-month contracts have a 43% churn rate versus much lower rates for 1–2 year contracts.
+- 🧾 **Service bundling reduces churn**: Customers lacking online security, backup, or tech support had churn rates over 41%.
+- 👥 **Demographic patterns**: Senior citizens, customers with no partners, or no dependents were more likely to churn.
+- 💳 **Payment method trends**: Electronic check users had the highest churn (45%) vs. those using mailed checks, bank transfers, or credit cards.
 
-3. Customers with month-to-month contracts have significantly higher churn rate(43%) compared to longer-term contracts (one-year, two year). This suggest offering more incentives for longer-term contracts could help reduce churn.
+---
 
-4. Customers who use fiber optics as their internet service, have no online security, no online backup, no device protection or no technical support have at least 41% churn rates. Offering bundled services at discounted rates may reduce churn by increasing the perceived value of the services.
+## 🤖 MODEL BUILDING
 
-5. While gender did not significantly affect churn, customers with no partners, senior citizens or no dependents were more likely to churn possibly due to different consumption pattern and financial constraints.
+Built two machine learning models using `scikit-learn`:
 
-6. Customers who use electronic check payment method have the highest churn rate at 45% compared to those whose use mailed checks, automatic bank transfers and credit cards.
+- **Decision Tree Classifier**  
+  - Accuracy: 92%  
+  - Precision: 94% (non-churners), 92% (churners)
 
-*MODEL BUILDING*
+- **Random Forest Classifier** *(selected model)*  
+  - Accuracy: 93%  
+  - Precision: 96% (non-churners), 92% (churners)
 
-Built two machine learning models from scikit-learn using Decision Tree and Random Forest Classifiers. The Decision Tree Classifier model had a score of 92% with 94% and 92% precision in predicting non-churners and churners respectively. The Random Forest Classifier had a score of 93% with 96% and 92% precision in predicting non-churners and churners respetively. The model built with the Random Forest Classifier was selected for its higher accuracy and precision in predicting non-churners.
+✅ The **Random Forest model** was selected for deployment due to its superior performance and precision in predicting customer retention.
+
+---
+
+## 💼 OUTCOME
+
+This analysis provided TelecomX with a data-driven understanding of its churn dynamics and a predictive model to proactively identify high-risk customers. Recommendations include targeting short-tenure and high-churn segments with tailored retention offers, bundling value-added services, and refining pricing strategies to reduce churn.
+
+---
+
+## 👨‍💻 Author
+
+**Emmanuel Owusu Dokyi**  
+📧 emmadokyi@gmail.com  
+🌐 [LinkedIn](https://www.linkedin.com/) | [GitHub](https://github.com/)
+
+---
